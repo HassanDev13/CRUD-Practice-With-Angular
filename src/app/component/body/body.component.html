@@ -1,0 +1,7 @@
+<h2>Prodects</h2>
+
+<div *ngFor="let product of items">
+    <app-item-prodect [product]="product" (share)="share(product)" ></app-item-prodect>
+</div>
+
+
